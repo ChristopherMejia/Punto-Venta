@@ -1,0 +1,313 @@
+.menu{
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    background-color:#212529;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: #434343;
+}
+
+.menu li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+
+.link{
+    padding: 10px;
+    font-size: 5px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+ol,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header a {
+    display: block;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.title{
+    margin-left: 200px;
+    padding: 10px;
+}
+
+.info{
+    margin: 0;
+    margin-left: 230px;
+    width: 500px;
+    border: 1px solid transparent;
+}
+
+.info2{
+    margin: 0;
+    margin-left: 110px;
+    width: 500px;
+    border: 1px solid transparent;
+}
+
+
+.form-control{
+    margin: 10px;
+}
+
+#boton{
+    background-color:darkorange;
+    border: none;
+    color: white;
+    padding: 12px 62px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+#boton-delete{
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 12px 62px;
+    text-decoration: none;
+    margin: 4px 2px;
+    margin-left: 1115px;
+    cursor: pointer;
+}
+
+.divDatos-delete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divDatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.contenedor{
+    display: flex;
+
+}
+
+.title-display
+{
+    margin-left: 610px;
+    padding: 10px;   
+}
+.table-contenedor
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-left: 230px;
+    width: 1100px;
+    border: 1px solid transparent;
+}
+
+.carrito
+{
+    display: flex;
+    width: 60px;
+    position: absolute;
+    right: 35px;
+    z-index: 2;
+    margin-top: 13px;
+}
+
+#btn-car
+{
+    background-color: black;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;   
+}
+
+#boton-venta{
+    border: none;
+    color: white;
+    padding: 12px 62px;
+    text-decoration: none;
+    margin: 4px 2px;
+    margin-left: 175px;
+    cursor: pointer;
+}
+
+#boton-product{
+    width: 75px;
+}
+
+.titulo-serch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.serch{
+    margin-left: 80px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+.title-details{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.title-display-dev{
+    margin-left: 50px;
+
+}
+.flujo-dinero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-dtails{
+    width: 300px;
+}
+.parrafo{
+    margin-left: 1070px;
+    margin-top: 270px;
+    font: 5px;
+    width: 250px;
+    height: 60px;
+    display: block;
+    border: 1px solid transparent;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+}
+
+.ventas{
+    width: 200px;
+    align-items: center;
+    margin-right: 100px;
+}
+.devoluciones{
+    width: 200px;
+    align-items: center;
+    margin-right: 100px;
+}
+.flujo{
+    width: 300px;
+    align-items: center;
+}
+.input-total{
+    margin-left:230px ;
+    width: 1000px;
+    display: flex;
+}
+.monto{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.dts-pro{
+    display: flex;
+    height: 90px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.lbl-pro{
+    font-size: 20px;
+}
+
+.datos-venta{
+    width: 80px;
+}
+
+.dts-ventas{
+    width: 70px;
+}
+
+.serch{
+    width: 60px;
+    margin: 0;
+}
+.details-venta{
+    padding: 10px;
+    display: block;
+    margin-left: 230px;
+    width: 750px;
+    height: 250px;
+    border: 1px solid transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.love{
+    width: 120px;
+}
+.date{
+    width:200px;
+}
+
+.table-venta{
+    width: 750px;
+    height: 400px;
+    margin-left: 385px;
+    border: 1px solid transparent;
+}
+.table-venta2{
+    width: 200px;
+    margin-left: 385px;
+    
+}
+.table-venta3{
+    width: 630px;
+    height: 380px;
+    margin-left: 50px;
+    border: 1px solid transparent;
+}
+.table-venta4{
+    height: 400px;
+    width: 430px;
+    border: 1px solid red;
+    margin-left: 210px;
+}
+
+.name{
+    margin-left: 220px;
+}
+.name-dtl{
+    margin-left: 200px;
+    border: 1px solid transparent;
+    width: 900px;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+.back{
+    margin-left: 260px;
+}
+.btnSubmit1{
+    margin-left: 385px;
+    width: 750px;
+}
+
